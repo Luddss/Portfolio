@@ -6,12 +6,14 @@ This is my portfolio where I show off some of the projects I have made/worked on
 <p>
   <a href="https://reactjs.org/"><img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" /></a>
   <a href="https://reactrouter.com/en/main"><img alt="ReactRouter" src="https://img.shields.io/badge/-ReactRouter-F44250?style=flat-square&logo=reactrouter&logoColor=white" /></a>
-  <a href="https://emotion.sh/docs/introduction"><img alt="Emotion" src="https://img.shields.io/badge/-Emotion-D26AC2?style=flat-square" /></a>
   <a href="https://babeljs.io/"><img alt="Babel" src="https://img.shields.io/badge/-Babel-F5DA55?style=flat-square&logo=babel&logoColor=black" /></a>
   <a href="https://nodejs.org/en/"><img alt="Node.js" src="https://img.shields.io/badge/-Node.js-43853d?style=flat-square&logo=Node.js&logoColor=white" /></a>
   <a href="https://expressjs.com/"><img alt="Express.js" src="https://img.shields.io/badge/-express.js-68A063?style=flat-square&logo=express&logoColor=white" /></a>
   <a href="https://www.npmjs.com/"><img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /></a>
+  <a href="https://www.tutorialrepublic.com/css-tutorial/"><img alt="css3" src="https://img.shields.io/badge/-CSS-264DE4?style=flat-square&logo=CSS3&logoColor=white" /></a>
+  <a href="https://react-bootstrap.github.io/"><img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-8913FD?style=flat-square&logo=bootstrap&logoColor=white" /></a>
+  <a href="https://emotion.sh/docs/introduction"><img alt="Emotion" src="https://img.shields.io/badge/-Emotion-D26AC2?style=flat-square" /></a>
   <a href="https://git-scm.com/"><img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" /></a>
 </p>
 
