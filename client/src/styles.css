@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
 }
 
 code {
@@ -23,7 +22,7 @@ a:hover {
 }
 
 .root-layout {
-  margin: 1% 14% 0 14%;
+  margin: 1% 12% 0 12%;
 }
 
 html {
@@ -34,10 +33,9 @@ header {
   margin-bottom: 75px;
 }
 
-.card {
+.simple-card {
   width: 100px;
   height: 100px;
-  background-color: green;
 }
 
 .header-container {
@@ -95,14 +93,23 @@ header {
 }
 
 .link-space {
-  min-width: 62px;
-}
-
-.right {
-  justify-content: flex-end;
-  text-align: right;
+  min-width: 65px;
 }
 
 .active {
   font-weight: bold;
+}
+
+#nav-edit {
+  padding: 0;
+}
+
+.container {
+  margin-left: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .right {
+    text-align: right;
+  }
 }

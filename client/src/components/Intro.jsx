@@ -9,17 +9,16 @@ function Intro() {
         <>
             <div
                 css={css`
-    padding: 32px;
-    background-color: hotpink;
-    font-size: 24px;
-    border-radius: 4px;
-    &:hover {
-        color: ${color};
-    }
-    `}
+                    padding: 32px;
+                    background-color: hotpink;
+                    font-size: 24px;
+                    border-radius: 4px;
+                    &:hover {
+                        color: ${color};
+                    }
+                    `}
             >
-            Test
-
+                Test
             </div>
             <p>Hi! I'm Ludvig, a front-end developer and UI|UX designer in Gothenburg, Sweden. </p></>
     )

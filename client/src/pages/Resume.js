@@ -4,7 +4,7 @@ import Card from "../components/Card"
 function Resume() {
     return (
         <>
-            <h1>Resumé</h1>
+            <h1>Resume</h1>
             <Card />
         </>
     );
