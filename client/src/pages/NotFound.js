@@ -22,10 +22,7 @@ function NotFound() {
 
     return (
 
-        <div className="centered" css={css`
-        text-align: center;
-        `}
-        >
+        <div css={css`text-align: center;`}>
             <h1>Error - Page not found</h1>
             <p>The page you were looking for was unfortunatly not found!</p>
             <p>You will be redirected back to the home page shortly...</p>

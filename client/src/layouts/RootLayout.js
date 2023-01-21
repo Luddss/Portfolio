@@ -1,10 +1,14 @@
 import React from 'react'
-import { NavLink, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react"
 
 function RootLayout() {
     return (
-        <div className="root-layout">
+        <div css={css`margin: 3% 12% 0 12%;`}>
             <header>
                 <Navbar />
             </header>
@@ -12,6 +16,10 @@ function RootLayout() {
             <main>
                 <Outlet />
             </main>
+
+            <footer>
+                <Footer />
+            </footer>
         </div>
     )
 }

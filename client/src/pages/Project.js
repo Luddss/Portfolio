@@ -8,7 +8,6 @@ function Project() {
     const { projectId } = useParams();
 
     if (projectId !== "1") {
-        console.log("Wrong");
         return <Navigate to="/" />
     }
 
