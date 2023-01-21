@@ -1,115 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-a:link, a:visited {
-  text-decoration: none;
-  color: black
-}
-
-a:hover {
-  font-weight: bold;
-}
-
-.root-layout {
-  margin: 1% 12% 0 12%;
-}
-
 html {
   overflow-y: overlay;
 }
 
+body {
+  margin: 0;
+}
+
 header {
-  margin-bottom: 75px;
-}
-
-.simple-card {
-  width: 100px;
-  height: 100px;
-}
-
-.header-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-nav-box {
-  margin: 55px 0 0 0;
-  width: 140px;
+  margin-bottom: 65px;
   font-size: small;
+  font-family: 'Raleway', sans-serif;
 }
 
-.info-box-container {
-  margin: 10px 10px 0 10px;
-  min-width: 190px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+main, footer {
+  font-size: small;
+  font-family: 'Raleway', sans-serif;
 }
 
-.info-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/*----- Website scroller -----*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-.info-text p {
-  margin: 2px;
-  justify-content: center;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
-.header-nav-content {
-  display: flex;
-  gap: 20px;
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(174, 174, 174);
+  border-radius: 10px;
 }
 
-.circle-img {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
-.right-align {
-  text-align: right;
-}
-
-.heading {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.small-text {
-  font-size: 11px;
-}
-
-.link-space {
-  min-width: 65px;
+a:link,
+a:visited {
+  text-decoration: none;
 }
 
 .active {
-  font-weight: bold;
-}
-
-#nav-edit {
-  padding: 0;
-}
-
-.container {
-  margin-left: 0;
-}
-
-@media only screen and (min-width: 992px) {
-  .right {
-    text-align: right;
-  }
+  color: #FF761F !important;
 }
