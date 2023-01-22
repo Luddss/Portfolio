@@ -17,6 +17,11 @@ main, footer {
   font-family: 'Raleway', sans-serif;
 }
 
+p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
 /*----- Website scroller -----*/
 
 /* width */

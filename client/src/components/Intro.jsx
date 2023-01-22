@@ -15,9 +15,9 @@ function Intro() {
                 padding: 0 23%;
             }
         `}>
-            <p css={css`font-size: 18px`}>Welcome to my portfolio website! I'm a UX/UI designer and front-end developer based in Gothenburg, Sweden. 
+            <p css={css`font-size: 18px`}>Welcome to my portfolio website! I'm a UX|UI designer and front-end developer based in Gothenburg, Sweden. 
             I create beautiful, user-friendly digital experiences with an eye for detail.
-            Check out my projects and if you like what you see, let's connect and see how we can work together!</p>
+            Check out my projects and if you find them interesting, let's connect and discuss how we can collaborate!</p>
         </div>
     )
 }
