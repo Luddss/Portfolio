@@ -21,7 +21,7 @@ function NavBar() {
         }
     }
 
-    const linkStyling = "font-weight: 500 !important; &:hover {text-decoration:none; cursor:pointer; font-weight: 700 !important;}";
+    const linkStyling = "font-weight: 500 !important; transition: 0.1s; &:hover {text-decoration:none; cursor:pointer; font-weight: 700 !important;}";
 
     return (
         <>

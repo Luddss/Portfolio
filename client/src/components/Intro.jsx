@@ -12,9 +12,12 @@ function Intro() {
                 text-align: center;     
                 margin-top: 100px;
                 margin-bottom: 125px;
+                padding: 0 23%;
             }
         `}>
-            <p>Hi! I'm Ludvig, a front-end developer and UI|UX designer in Gothenburg, Sweden. </p>
+            <p css={css`font-size: 18px`}>Welcome to my portfolio website! I'm a UX/UI designer and front-end developer based in Gothenburg, Sweden. 
+            I create beautiful, user-friendly digital experiences with an eye for detail.
+            Check out my projects and if you like what you see, let's connect and see how we can work together!</p>
         </div>
     )
 }
