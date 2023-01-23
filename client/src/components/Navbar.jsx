@@ -44,10 +44,7 @@ function NavBar() {
                     </Navbar.Collapse>
                     <Navbar.Collapse className='justify-content-end'>
                         <Navbar.Text>
-                            <div css={css`margin-right: 25px; min-width: 75px; @media only screen and (min-width: 768px) {text-align: right;}`}><NavLink to="contact" css={css`${linkStyling}`}>CONTACT</NavLink></div>
-                        </Navbar.Text>
-                        <Navbar.Text>
-                            <div css={css`min-width: 75px; @media only screen and (min-width: 768px) {text-align: right;}`}><NavLink to="resume" css={css`${linkStyling}`}>RESUME</NavLink></div>
+                            <div css={css`min-width: 150px; @media only screen and (min-width: 768px) {text-align: right;}`}><a href="Solid_Beans_Ludvig_Andersson.pdf" download css={css`${linkStyling}`}>DOWNLOAD RESUME</a></div>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
