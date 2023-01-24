@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div>
-      <RouterProvider router={router} />
+      <RouterProvider basename="/Portfolio" router={router} />
     </div>
 
   )

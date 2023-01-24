@@ -15,7 +15,7 @@ function ProjectPresentation(props){
         <div css = {{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center',  '& h1': { fontWeight: 800, fontSize: '40px'}, [mq]: {gap: '50px'}}}>
             <div><h1>{props.title}</h1><h5>{props.subtitle}</h5></div>
             {props.image !== "" ? <div css = {{ width: '430px;', height: '247px;', [mq2]: {width: '100%', height: '100%'}  }}>
-            <img src={"/images/" + props.image} alt="MikroLIS" css={{width: '100%', height: '100%'}} />
+            <img src={require(`../assets/images/${props.image}`)} alt="MikroLIS" css={{width: '100%', height: '100%'}} />
             </div> : null}
         </div>
     );

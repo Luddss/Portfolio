@@ -31,7 +31,7 @@ function ProjectIntro(props) {
                 <h3>Reason for project:</h3>
                 <p>{props.reason}</p>
 
-                {props.projectTitle === "Sahlgrenska" ? <a href="Master_Thesis_Ludvig_Andersson.pdf" download css={css`text-decoration: none; color: #FF761F;  transition: 0.1s; &:hover {color: #FF761F; text-decoration:none; cursor:pointer; font-weight: 800;}`}>Download Master's Thesis</a> : null}
+                {props.projectTitle === "Sahlgrenska" ? <a href={require(`../assets/Master_Thesis_Ludvig_Andersson.pdf`)} download css={css`text-decoration: none; color: #FF761F;  transition: 0.1s; &:hover {color: #FF761F; text-decoration:none; cursor:pointer; font-weight: 800;}`}>Download Master's Thesis</a> : null}
                 {props.context !== "" ? <h3>Context:</h3> : null}
                 <p>{props.context}</p>
                 <h3>The problem:</h3>
