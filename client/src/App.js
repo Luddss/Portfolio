@@ -30,14 +30,15 @@ const router = createBrowserRouter(
         <Route path="resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />
       </Route>
-  )
+  ),
+  { basename: "/Portfolio" }
 )
 
 function App() {
 
   return (
     <div>
-      <RouterProvider basename="/Portfolio" router={router} />
+      <RouterProvider router={router} />
     </div>
 
   )
