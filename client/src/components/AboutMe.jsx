@@ -24,7 +24,7 @@ function AboutMe() {
                     I am also a big fan of Melodifestivalen and Eurovision and I religiously follow the competitions each year.
                 </h5>
             </div>
-            <img src={"/images/Me.jpg"} alt="Profile" css={css`width: 280px; height: 420px; border-radius: 10px;`}></img>
+            <img src={require(`../assets/images/me.jpg`)} alt="Profile" css={css`width: 280px; height: 420px; border-radius: 10px;`}></img>
         </div>
     );
 }
