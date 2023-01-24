@@ -6,7 +6,7 @@ import { css } from "@emotion/react"
 
 function ImageWithText(props) {
 
-    const mq = `@media (max-width: ${768}px)`;
+    const mq = `@media (max-width: ${788}px)`;
     const mq2 = `@media (min-width: ${1000}px)`;
     let layout = props.layout === "reverse" ? "row-reverse" : "row";
 
@@ -24,7 +24,7 @@ function ImageWithText(props) {
                 gap: '10px',
                 flexDirection: 'column-reverse',
                 alignItems: 'center',
-                '& h5': { fontSize: '2.7vh', marginTop: '20px' }
+                '& h5': { fontSize: '3vh', marginTop: '20px' }
             },
             [mq2]: {
                 'h5': { fontSize: '20px' }

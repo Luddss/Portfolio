@@ -24,7 +24,7 @@ function UI_Challenges() {
                 text="Today's prompt opened up lots of directions to take the design. 
                 I picked a marketing course as a starting point and leaned heavily into a sustainability and playful feel. 
                 The challenge made me focus on nailing the fundamentals with a signup page, while at the same time having some fun with custom art to match my chosen look and feel."
-                image="SignUpPage"
+                image="sign_up_page"
             />
             <Challenge
                 title="Day 2 - Checkout"
@@ -35,12 +35,12 @@ function UI_Challenges() {
                 image="checkout"
             />
             <Challenge
-                title="Day 4 - Calculator"
+                title="Day 4 - calculator"
                 text="Unlike previous challenges, a calculator has some stringent boundaries. 
                 Users expect a calculator to look a certain way and moving away from this look most often worsens the design. 
                 Instead, I focused on trying to pair good colors with big bold typography. 
                 The result is nothing all that special, and I guess that is by design."
-                image="Calculator"
+                image="calculator"
             />
             <Challenge
                 title="Day 5 - App Icon"
@@ -50,7 +50,7 @@ function UI_Challenges() {
                 I went with a family tree app as my branding and focused on branching that happens in a family's lineage. 
                 To avoid making the app a 'plant app', I tried making the background grey and 'old'. 
                 This aspect of the design could still use some work."
-                image="AppIcon"
+                image="app_icon"
             />
         </>
     );
