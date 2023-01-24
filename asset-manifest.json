@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.aee546ea.css",
-    "main.js": "/Portfolio/static/js/main.2ab00744.js",
+    "main.js": "/Portfolio/static/js/main.3916ed83.js",
     "static/media/Master_Thesis_Ludvig_Andersson.pdf": "/Portfolio/static/media/Master_Thesis_Ludvig_Andersson.f7cb970c26817c56d77a.pdf",
     "static/media/me.jpg": "/Portfolio/static/media/me.00881205701babc649ad.jpg",
     "static/media/RouteFinder.png": "/Portfolio/static/media/RouteFinder.8e3559c804434a569fd4.png",
@@ -16,10 +16,10 @@
     "static/media/checkout.png": "/Portfolio/static/media/checkout.23a1d7c40ec48cc7f6c6.png",
     "index.html": "/Portfolio/index.html",
     "main.aee546ea.css.map": "/Portfolio/static/css/main.aee546ea.css.map",
-    "main.2ab00744.js.map": "/Portfolio/static/js/main.2ab00744.js.map"
+    "main.3916ed83.js.map": "/Portfolio/static/js/main.3916ed83.js.map"
   },
   "entrypoints": [
     "static/css/main.aee546ea.css",
-    "static/js/main.2ab00744.js"
+    "static/js/main.3916ed83.js"
   ]
 }
