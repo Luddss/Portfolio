@@ -6,8 +6,15 @@ import ProjectPresentation from "../components/ProjectPresentation";
 function Sahlgrenska() {
     return (
         <>
-            <ProjectPresentation />
+            <ProjectPresentation
+                title="MikroLIS"
+                subtitle="UX|UI Design & Frontend project at Sahlgrenska"
+                image="MikroLIS.png"
+                imgWidth='100%'
+                imgHeight='100%'
+            />
             <ProjectIntro
+                projectTitle="Sahlgrenska"
                 reason="Master's thesis project which later continued as a position of employment at Sahlgrenska University Hospital, totaling roughly 2 years working time. 
                 Working as the main UX|UI designer on the project, together with a team of 4 devs, a project lead and two super users. 
                 The role later transitioned more towards implementation and predomenently frontend."

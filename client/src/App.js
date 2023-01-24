@@ -21,16 +21,16 @@ import RootLayout from "./layouts/RootLayout"
 
 const router = createBrowserRouter(
 
-createRoutesFromElements(
-  <Route path="/" element={<RootLayout />}>
-    <Route index element={<Home />} />
-    <Route path="/:projectId" element={<Project />} />
-    <Route path="about" element={<About />} />
-    <Route path="contact" element={<Contact />} />
-    <Route path="resume" element={<Resume />} />
-    <Route path="*" element={<NotFound />} />
-  </Route>
-)
+  createRoutesFromElements(
+      <Route path="/" element={<RootLayout />}>
+        <Route index element={<Home />} />
+        <Route path="/:projectId" element={<Project />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="resume" element={<Resume />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+  )
 )
 
 function App() {

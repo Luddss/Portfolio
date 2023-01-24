@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Sahlgrenska from "../projects/Sahlgrenska";
 import Running_App from "../projects/Running_app";
-import UI_Challanges from "../projects/UI_Challanges";
+import UI_Challenges from "../projects/UI_Challenges";
 import { useParams, Navigate } from "react-router-dom";
 
 function Project() {
@@ -13,8 +13,8 @@ function Project() {
             return (<Sahlgrenska />);
         case 'running-app':
             return (<Running_App />);
-        case 'ui-challanges':
-            return (<UI_Challanges />);
+        case 'ui-challenges':
+            return (<UI_Challenges />);
         default:
             return <Navigate to="/" />
     }

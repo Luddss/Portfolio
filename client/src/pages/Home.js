@@ -28,7 +28,7 @@ function Home() {
                 <Row className="gx-8 gy-4">
                     <Col xs={12} md={6}  lg={6} xl={6}><Card url={"sahlgrenska"} image={"Sahlgrenska_frontpage.png"} hoverText={"UX|UI @ Sahlgrenska"}/></Col>
                     <Col xs={12} md={6}  lg={6} xl={6}><Card url={"running-app"} image={"Running_app.png"} hoverText={"UX|UI Concept App"}/></Col>
-                    <Col xs={12} md={6}  lg={6} xl={6}><Card url={"ui-challanges"} image={"UI_Phone.png"} hoverText={"UI Challanges"}/></Col>
+                    <Col xs={12} md={6}  lg={6} xl={6}><Card url={"ui-challenges"} image={"UI_Phone.png"} hoverText={"UI Challenges"}/></Col>
                     <Col xs={12} md={6}  lg={6} xl={6}><Card url={"X"} image={"Call4Help.png"} hoverText={"Call4Help"}/></Col>
                 </Row>
             </Container>
