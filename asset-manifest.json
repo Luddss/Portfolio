@@ -1,27 +1,34 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.aee546ea.css",
-    "main.js": "/Portfolio/static/js/main.2f95d024.js",
+    "main.js": "/Portfolio/static/js/main.f80fa675.js",
     "static/media/Master_Thesis_Ludvig_Andersson.pdf": "/Portfolio/static/media/Master_Thesis_Ludvig_Andersson.f7cb970c26817c56d77a.pdf",
     "static/media/me.jpg": "/Portfolio/static/media/me.00881205701babc649ad.jpg",
     "static/media/RouteFinder.png": "/Portfolio/static/media/RouteFinder.8e3559c804434a569fd4.png",
     "static/media/profile.jpg": "/Portfolio/static/media/profile.b7c2d9bc82bc09e4cca0.jpg",
     "static/media/sign_up_page.png": "/Portfolio/static/media/sign_up_page.3c41ac3a29aa8c72fae8.png",
+    "static/media/Workshop.png": "/Portfolio/static/media/Workshop.30e541aa125eeaed4f03.png",
     "static/media/Running_app.png": "/Portfolio/static/media/Running_app.20a6942cfed0fc2593f1.png",
     "static/media/Solid_Beans_Ludvig_Andersson.pdf": "/Portfolio/static/media/Solid_Beans_Ludvig_Andersson.f129e11dcefed59baf2e.pdf",
+    "static/media/Home.png": "/Portfolio/static/media/Home.8850bd4e98aa157edafc.png",
+    "static/media/Findings.png": "/Portfolio/static/media/Findings.43b7234af0511218f1cd.png",
+    "static/media/Results.png": "/Portfolio/static/media/Results.70549fb3ef277c88bdd6.png",
     "static/media/Call4Help.png": "/Portfolio/static/media/Call4Help.dfc87c5943db05d7d3d7.png",
+    "static/media/Start.png": "/Portfolio/static/media/Start.74b7b67af717e8ed3d81.png",
     "static/media/MikroLIS.png": "/Portfolio/static/media/MikroLIS.f90a38ff89d89630ee0d.png",
     "static/media/Sahlgrenska_frontpage.png": "/Portfolio/static/media/Sahlgrenska_frontpage.25dfcf1afa01db848708.png",
+    "static/media/Affinity.png": "/Portfolio/static/media/Affinity.8f91e12bd22625018f9a.png",
+    "static/media/Register.png": "/Portfolio/static/media/Register.46c89df131810d44f1dc.png",
     "static/media/UI_Phone.png": "/Portfolio/static/media/UI_Phone.e0603548cced7f4b5397.png",
     "static/media/checkout.png": "/Portfolio/static/media/checkout.d9a4fb1e2d398f3331cf.png",
     "static/media/calculator.png": "/Portfolio/static/media/calculator.d630d7a4e9981bdd2d66.png",
     "static/media/app_icon.png": "/Portfolio/static/media/app_icon.c26da2195a5366ede96f.png",
     "index.html": "/Portfolio/index.html",
     "main.aee546ea.css.map": "/Portfolio/static/css/main.aee546ea.css.map",
-    "main.2f95d024.js.map": "/Portfolio/static/js/main.2f95d024.js.map"
+    "main.f80fa675.js.map": "/Portfolio/static/js/main.f80fa675.js.map"
   },
   "entrypoints": [
     "static/css/main.aee546ea.css",
-    "static/js/main.2f95d024.js"
+    "static/js/main.f80fa675.js"
   ]
 }
