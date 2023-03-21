@@ -1,11 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
   createBrowserRouter,
   Route,
   RouterProvider,
-  createRoutesFromElements
+  createRoutesFromElements,
+  useLocation
 } from "react-router-dom"
 
 // pages
@@ -35,12 +36,10 @@ const router = createBrowserRouter(
 )
 
 function App() {
-
   return (
     <div>
       <RouterProvider router={router} />
     </div>
-
   )
 }
 

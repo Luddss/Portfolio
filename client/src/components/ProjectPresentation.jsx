@@ -8,8 +8,7 @@ import { css } from "@emotion/react"
 function ProjectPresentation(props){
 
     const mq = `@media (max-width: ${1155}px)`;
-    const mq2 = `@media (max-width: ${570}px)`;
-    const mq3 = `@media (max-width: ${450}px)`;
+    const mq2 = `@media (max-width: ${570}px)`;;
 
     return (
         <div css = {{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center',  '& h1': { fontWeight: 800, fontSize: '40px'}, [mq]: {gap: '50px'}}}>

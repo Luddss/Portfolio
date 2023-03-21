@@ -7,7 +7,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Favicon url={require(`../src/assets/images/L.png`)} />
-      <App />
+    <Favicon url={require(`../src/assets/images/L.png`)} />
+      <App />  
   </React.StrictMode>
 );

@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectPresentation from "../components/ProjectPresentation";
 import Challenge from "../components/Challenge";
 
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react"
+import { useLocation } from "react-router-dom";
 
 function UI_Challenges() {
+
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'instant'
+        });
+    }, [pathname]);
+
     return (
         <>
             <ProjectPresentation
