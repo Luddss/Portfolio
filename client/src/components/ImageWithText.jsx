@@ -1,5 +1,9 @@
 import React from "react";
 
+/* eslint-disable */ 
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react"
+
 function ImageWithText(props) {
 
     const mq = `@media (max-width: ${788}px)`;
@@ -32,7 +36,7 @@ function ImageWithText(props) {
                 </h5>
             </div>
             <div css={{ width: '40%', [mq]: { width: '80%' } }}>
-                <img src={require(`../assets/images/challenges/${props.image}.png`)} alt="Profile" css={{ objectFit: 'contain', height: 'auto', width: '100%', borderRadius: '10px' }} />
+                <img src={require(`../assets/images/${props.image}.png`)} alt="Profile" css={{ objectFit: 'contain', height: 'auto', width: '100%', borderRadius: '10px' }} />
             </div>
         </div>
     );
