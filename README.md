@@ -1,5 +1,5 @@
 ## Hi, Welcome to my Portfolio! 👋
-I'm Ludvig, a front-end developer and UX|UI designer currently working at <a href="https://solidbeans.se/">Solid Beans</a>, in Gothenburg, Sweden.
+I'm Ludvig, a front-end developer and UX|UI designer living in Gothenburg, Sweden.
 
 This is my portfolio where I show off some of the projects I have made/worked on. I also made the portfolio myself using the following technologies:  
 
@@ -10,6 +10,7 @@ This is my portfolio where I show off some of the projects I have made/worked on
   <a href="https://nodejs.org/en/"><img alt="Node.js" src="https://img.shields.io/badge/-Node.js-43853d?style=flat-square&logo=Node.js&logoColor=white" /></a>
   <a href="https://expressjs.com/"><img alt="Express.js" src="https://img.shields.io/badge/-express.js-68A063?style=flat-square&logo=express&logoColor=white" /></a>
   <a href="https://www.npmjs.com/"><img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" /></a>
+  <a href="https://www.javascript.com/"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /></a>
   <a href="https://www.tutorialrepublic.com/css-tutorial/"><img alt="css3" src="https://img.shields.io/badge/-CSS-264DE4?style=flat-square&logo=CSS3&logoColor=white" /></a>
   <a href="https://react-bootstrap.github.io/"><img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-8913FD?style=flat-square&logo=bootstrap&logoColor=white" /></a>
@@ -25,7 +26,7 @@ Take a look around and get in touch with me!
 <a href="https://dribbble.com/Ludvig-Andersson/about">
   <img align="left" alt="Ludvig Andersson | Dribbble" width="22px" src="https://user-images.githubusercontent.com/119592482/208381423-e643c613-319e-4295-a717-8c6d73fef6b3.svg" />
 </a>
-<a href="https://github.com/Luddss">
+<a href="https://github.com/Ludvand">
   <img align="left" alt="Ludvig Andersson | Github" width="22px" src="https://user-images.githubusercontent.com/119592482/208386201-56c11c05-ef95-4595-9de8-119df1522377.svg" />
 </a>
 🡰 Check out more of my stuff
