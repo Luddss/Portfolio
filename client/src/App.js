@@ -30,8 +30,7 @@ const router = createBrowserRouter(
         <Route path="resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />
       </Route>
-  ),
-  { basename: "/Portfolio" }
+  )
 )
 
 function App() {
