@@ -1,7 +1,5 @@
 import React from "react";
 import ImageWithText from "./ImageWithText";
-/** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react"
 
 function Challenge(props) {
     return (
