@@ -1,9 +1,5 @@
 import React from "react";
 
-/** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react"
-
-
 function ImageWithText(props) {
 
     const mq = `@media (max-width: ${788}px)`;
