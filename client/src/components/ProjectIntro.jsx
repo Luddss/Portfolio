@@ -28,7 +28,7 @@ function ProjectIntro(props) {
                 margin-bottom: 120px;
                 padding: 0 9%;
             }`}>
-                <h3>Reason for project:</h3>
+                <h3>Reason for the project:</h3>
                 <p>{props.reason}</p>
 
                 {props.projectTitle === "Sahlgrenska" ? <a href={require(`../assets/Master_Thesis_Ludvig_Andersson.pdf`)} download css={css`text-decoration: none; color: #FF761F;  transition: 0.1s; &:hover {color: #FF761F; text-decoration:none; cursor:pointer; font-weight: 800;}`}>Download Master's Thesis</a> : null}

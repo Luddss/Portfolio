@@ -1,7 +1,8 @@
 import React from "react";
 import Sahlgrenska from "../projects/Sahlgrenska";
-import Running_App from "../projects/Running_app";
-import UI_Challenges from "../projects/UI_Challenges";
+import RunningApp from "../projects/Running_app";
+import UIChallenges from "../projects/UI_Challenges";
+import Call4Help from "../projects/Call4Help";
 import { useParams, Navigate } from "react-router-dom";
 
 function Project() {
@@ -12,9 +13,11 @@ function Project() {
         case 'sahlgrenska':
             return (<Sahlgrenska />);
         case 'running-app':
-            return (<Running_App />);
+            return (<RunningApp />);
         case 'ui-challenges':
-            return (<UI_Challenges />);
+            return (<UIChallenges />);
+        case 'call4help':
+            return (<Call4Help />);
         default:
             return <Navigate to="/" />
     }

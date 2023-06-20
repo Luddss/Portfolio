@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react"
 
-function Running_App() {
+function RunningApp() {
 
     const { pathname } = useLocation();
 
@@ -231,4 +231,4 @@ function Running_App() {
     );
 }
 
-export default Running_App;
+export default RunningApp;

@@ -6,7 +6,7 @@ import Challenge from "../components/Challenge";
 import { css } from "@emotion/react"
 import { useLocation } from "react-router-dom";
 
-function UI_Challenges() {
+function UIChallenges() {
 
     const { pathname } = useLocation();
 
@@ -29,7 +29,7 @@ function UI_Challenges() {
             />
             <div css={css`margin: 25px 10% 0 0; @media only screen and (max-width: 768px) {margin: 25px 0 0 0}`}>
                 <p>Doing daily UI challenges can be a great way to practice skills like typography, hierarchy, color, and layout.
-                    As well as getting more proficient using a specific design tool like Figma. Here are some of my favourite designs I made in the challenge: <br /><br /> <i>(More coming soon)</i> </p>
+                    As well as getting more proficient using a specific design tool like Figma. Here are some of my favorite designs I made in the challenge: <br /><br /> <i>(More coming soon)</i> </p>
             </div>
             <Challenge
                 title="Day 1 - Sign Up"
@@ -43,7 +43,7 @@ function UI_Challenges() {
                 layout="reverse"
                 text="The second challenge also has some core fundamentals that need to be right for the design to work. 
                 I've focused on these core elements: card info, pricing, and viewing the products. 
-                I have used simple and luxurious colors, emphasized guiding the user to a successful checkout, and tried to use skeuomorphism to mimic a ripped paper receipts."
+                I have used simple and luxurious colors, emphasized guiding the user to a successful checkout, and tried to use skeuomorphism to mimic ripped paper receipts."
                 image="checkout"
             />
             <Challenge
@@ -68,4 +68,4 @@ function UI_Challenges() {
     );
 }
 
-export default UI_Challenges;
+export default UIChallenges;

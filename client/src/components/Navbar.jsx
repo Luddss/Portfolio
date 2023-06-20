@@ -17,7 +17,7 @@ function NavBar() {
         } else {
             setTimeout(() => {
                 setImageStatus(true);
-              }, 300);
+              }, 350);
         }
     }
 
@@ -40,11 +40,11 @@ function NavBar() {
                         </Navbar.Text>
                     </Navbar.Collapse>
                     <Navbar.Collapse className="justify-content-center">
-                        <div className="d-none d-lg-block d-md-block"><img src={require(`../assets/images/profile.jpg`)}  css={css`width: 40px; height: 40px; border-radius: 50%;`} /></div>
+                        <div className="d-none d-lg-block d-md-block"><img src={require(`../assets/images/profile.jpg`)} alt="Circular portrait" css={css`width: 40px; height: 40px; border-radius: 50%;`} /></div>
                     </Navbar.Collapse>
                     <Navbar.Collapse className='justify-content-end'>
                         <Navbar.Text>
-                            <div css={css`min-width: 150px; @media only screen and (min-width: 768px) {text-align: right;}`}><a href={require(`../assets/Solid_Beans_Ludvig_Andersson.pdf`)} download css={css`${linkStyling}`}>DOWNLOAD RESUME</a></div>
+                            <div css={css`min-width: 150px; @media only screen and (min-width: 768px) {text-align: right;}`}><a href={require(`../assets/CV_Ludvig_Andersson_ENG.pdf`)} download css={css`${linkStyling}`}>DOWNLOAD RESUME</a></div>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
