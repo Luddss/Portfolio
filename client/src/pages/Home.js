@@ -20,7 +20,7 @@ function Home() {
                 }
             `}>
                 <h2>Ludvig Andersson</h2>
-                <p css={css `color: grey; margin: 0px;`}>UX|UI designer & Front-end developer</p>
+                <p css={css `color: grey; margin: 0px;`}> Front-end developer & UX|UI designer</p>
             </div>
 
             <Intro />
